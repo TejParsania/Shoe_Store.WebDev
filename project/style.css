@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+body {                                    
+ background-color: #fed8b1;
+ margin: 0 15% 0;
+ font-family: Verdana, sans-serif;     
+ font-size: 100%;     
+}
+
+
+
+header {
+  color: #fed8b1;
+  margin-top: 0;
+  text-align: center;
+  background-color: #8b0000;
+}
+
+main img {
+  float: left;
+  margin: 0 6px 6px 0;
+}
+
+h1 {
+ text-align: center;
+ font-family: serif, Georgia, "Marko one";
+ font-weight: normal;
+ text-transform: uppercase;
+ margin-top: 30px;
+ Font-size: 1.5em;
+ Text-shadow: .1em .1em .2em lightslategray;
+}
+
+h2 {
+ color: #000000;
+ font-size: 1.5em;
+ text-transform: uppercase;
+ text-align: center;
+}
+
+h3 {                                      
+ color: #d1633c;
+ font-size: 1em;             
+}
+
+h4 {                                     
+ color: #d1633c;
+ font-size: 1em;             
+}
+
+Video {
+ margin:0 auto;
+ Display: block;
+}
+
+Footer{
+ Text-align: center;
+}
+
+Table.center {
+ Margin-left: auto;
+ Margin-right: auto;
+ Font-size: 1.5em;
+}
+
+Form {
+ Text-align: center;
+}
+
+Legend {
+ color: #000000;
+ font-size: 1.1em;
+ text-transform: uppercase;
+ text-align: center;
+}
+
+a {
+ text-decoration: none;
+}
+
+P, dl{
+ font-size: .875em;
+ }
+
+P{
+ Text-align: center;
+}
+
+header p {
+  font-style: italic;
+  font-size: 1.2em;
+  margin-top: -12px;
+}
+
+header h1{
+ margin-top: 1.5em;
+}
+
+nav {
+  font-family: verdana, sans-serif;
+  background-color: #ffffff;
+}
+nav ul li a:link, nav ul li a:visited {
+  color: #8b0000;
+}
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+  color: #000000;
+}
+nav ul {
+  List-style-type: none;
+  Padding: 0;
+  margin: 0;
+}
+nav ul li {
+  font-size: .8em;
+  text-transform: uppercase;
+   /* letter-spacing: .2em; */
+}
+
+li {
+    display: inline;
+  }
+
+dt{
+ font-weight: bold;
+}
+
+strong{
+ font-size: italic;
+}
+
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ Word-spacing: .5em;
+}
+

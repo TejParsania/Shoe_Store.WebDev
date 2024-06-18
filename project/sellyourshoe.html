@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset ="utf-8">
+<title>Sell your shoe</title>                          <!-- title of the website -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>                                                <!-- Menu and nav -->
+<nav>
+<h1><img src="img/logo.png" alt="logo"></h1>
+<ul>
+<li><a href="index.html">Home |</a></li>
+<li><a href="sellyourshoe.html"> Sell |</a></li>
+<li><a href="tips.html"> Tips |</a></li>
+<li><a href="nike.html"> Nike |</a></li>
+<li><a href="adidas.html"> Adidas |</a></li>
+<li><a href="Contact.php">Contact Us</a></li>
+</ul>
+</nav>
+</header>
+
+<header>
+<h1>Sell and Get offer</h1>
+</header>
+<br>
+<br>
+
+<form action="/Users/tejparsania/Documents/CSC3750/final/sell.html" method="post">
+
+<legend> Fill out Your Information below:</legend>
+<br>
+<ul>
+<li><label for="form-name">Name:</label> <input type="text" name="customer" id="form-name"></li>
+<li><label for="form-tel">Telephone Number:</label> <input type="tel" name="telephone" id="form-tel"></li>
+<li><label for="form-email">Email: </label><input type="email" name="email" id="form-email"></label></li>
+</ul>
+<br>
+<br>
+
+<legend>Best way to contact you back:</legend>
+<br>
+<ul>
+<li><label><input type="radio" name="contact-back" value="Email"> Email</label></li>
+<li><label><input type="radio" name="contact-back" value="Phone"> Phone</label></li>
+<li><label><input type="radio" name="contact-back" value="both(Email and phone)"> Both( Email and Phone)</label></li>
+</ul>
+<br>
+<br>
+
+Write Brand, Collection Name, Size and condition of your shoe:<br>
+<textarea name="instructions" rows="4" cols="60" maxlength="400" id="form-story" placeholder="No more than 400 characters long"></textarea>
+<br>
+<br>
+
+
+<legend>Number of shoes you like to sell:</legend>
+<p>How many:
+<select name="numbers" size="1">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+</select>
+</p>
+
+<label for="img">Upload image of your shoe:<em>(To get better offer, photos must be uploaded)</em></label>
+<input type="file" id="img" name="img" accept="image/*">
+
+
+<p><input type="submit" value="Get my Offer!!" >
+<input type="reset"></p>
+</form>
+<p><small>Proudly Build in Hartford <br> © 2023 ShoeStore@TP. All Rights Reserved. </small></p>
+
+</body>
+</html>
